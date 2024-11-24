@@ -1,0 +1,37 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-navigation/native": "^7.0.4",
+    "@react-navigation/native-stack": "^7.1.1",
+    "@react-navigation/stack": "^7.0.6",
+    "@reduxjs/toolkit": "^2.3.0",
+    "expo": "~52.0.11",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.2",
+    "react-native": "0.76.3",
+    "react-native-animatable": "^1.4.0",
+    "react-native-app-link": "^1.0.1",
+    "react-native-paper": "^5.12.5",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-reanimated-carousel": "^3.5.1",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-swiper": "^1.6.0",
+    "react-redux": "^9.1.2",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
